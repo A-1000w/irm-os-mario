@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: "mukta", sans-serif;
+}
+.apresentação-caixa {
+
+    width: 40%;
+
+}
+
+.logo-luigi-mario {
+    height: 500px;
+
+}
+
+
+.logo-site {
+    width: 350px;
+}
+
+button {
+    width: 300px;
+    height: 75px;
+    background: red;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fafafa;
+    margin-top: 30px;
+}
+
+
+body {
+    height: 100vh;
+}
+
+.caixa-mae {
+    align-items: center;
+    padding: 100px;
+    justify-content:space-between;
+    display: flex;
+    height: 100vh;
+}
+
+.video-mario {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    left: 0;
+
+}
+
+video {
+    min-height: 100vh;
+    min-width: 100vw;
+
+}
+
+.mascara-video {
+   background: linear-gradient(109deg,rgba(10, 12, 16, 0.99) 15%,rgba(10, 12, 16, 0.7) 50%,rgba(10, 12, 16, 0.99) 85%);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+
+.cabecalho img{
+width: 70px;
+}
+
+.cabecalho a{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.cabecalho a:hover{
+    color: red;
+    transition: 0.2s ease-in-out;
+}
+
+
+.link-whatsapp img{
+width: 60px;
+}
+
+.caixa-whatsapp{
+    position: fixed;
+    bottom: 15px;
+    right:12px;
+}
+
+.caixa-whatsapp a{
+    cursor: pointer;
+}
+
+form{
+    background-color: white;
+
+    position: fixed;
+    top: 40%;
+    left: -340px;
+    z-index: 1;
+
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
+    border-radius: 3px;
+    width:350px;
+    height: 400px;
+
+    transition: 0.2s left ease-in-out;
+}
+
+form input{
+    height: 40px;
+    padding-left: 5px;
+
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline-color:#18d80f ;
+
+}
+
+form textarea{
+    height: 40px;
+    padding-left: 5px;
+    height: 100px;
+
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline-color:#18d80f ;
+}
+
+.mascara-formulario{
+    background: linear-gradient(109deg,rgba(10, 12, 16, 0.99) 15%,rgba(10, 12, 16, 0.7) 50%,rgba(10, 12, 16, 0.99) 85%);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    transition: 0.2s visible ease-in-out;
+    z-index: 0;
+ 
+
+  
+}
+
+

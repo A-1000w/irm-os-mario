@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: "mukta", sans-serif;
+}
+body {
+    height: 100vh;
+    
+}
+
+.caixa-mae {
+  flex-direction: column;
+    padding: 100px;
+    display: flex;
+    height: 100vh;
+}
+
+
+
+.cabecalho img{
+width: 70px;
+}
+
+.cabecalho a{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+
+
+}
+
+.cabecalho a:hover{
+    color: red;
+    transition: 0.2s ease-in-out;
+}
+
+.video-mario {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    left: 0;
+}
+
+video {
+    min-height: 100vh;
+    min-width: 100vw;
+
+}
+
+.mascara-video {
+   background: linear-gradient(109deg,rgba(10, 12, 16, 0.99) 15%,rgba(10, 12, 16, 0.7) 50%,rgba(10, 12, 16, 0.99) 85%);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.caixa-mae h1{
+color: white;
+}
+
+ol{
+    color: white;
+    font-size: 20px;
+}
+
